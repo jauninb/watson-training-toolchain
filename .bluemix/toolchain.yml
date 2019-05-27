@@ -89,5 +89,8 @@ form:
   pipeline:
     parameters:
       prod-app-name: '{{services.sample-repo.parameters.repo_name}}'
+      prod-space:
+      prod-organization:
+      prod-region:
     schema:
       $ref: deploy.json
